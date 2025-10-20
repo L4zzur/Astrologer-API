@@ -1,0 +1,27 @@
+[project]
+name = "astrologer-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic",
+    "pydantic-settings",
+    "starlette",
+    "fastapi",
+    "uvicorn",
+    "types-pytz",
+    "pytz",
+    "scour",
+    "typing-extensions",
+    "kerykeion",
+]
+
+[dependency-groups]
+dev = [
+    "black",
+    "pytest",
+    "mypy",
+    "httpx",
+    "types-requests",
+]
