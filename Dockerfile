@@ -23,7 +23,7 @@ RUN pip install --upgrade pip
 COPY --from=dependencies /app/requirements.txt ./requirements.txt
 RUN pip install --no-cache -r ./requirements.txt
 
-COPY ./app .
+COPY . .
 
 ENV ENV_TYPE=production
 ENV PORT=9000
