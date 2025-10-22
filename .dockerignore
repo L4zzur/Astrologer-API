@@ -1,2 +1,11 @@
 tests/*
 __pycache__/*
+
+.editorconfig
+cache/*
+.git*
+*file*
+*.md
+.python-version
+*.json
+dump_schema.py
